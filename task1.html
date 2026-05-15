@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        footer{
+            background-color:rgb(9,9,27);
+            color:white;
+            padding:20px;
+            text-align:center;
+            font-weight: bold;
+        }
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:border-box
+        }
+        header{
+            background-color:rgb(9,9,27);
+            text-align:center;
+            padding:20px;
+            border:1px solid whitesmoke;
+        }
+        header>a{
+            color:white;
+            background-color: darkblue;
+            padding:10px;
+            border-radius:10px;
+            margin:10px;
+            text-decoration: none;
+            font-weight:bold
+        }
+        .s1{
+            height:300px;
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://th.bing.com/th/id/OIP.hfYeIbz7JfL-dqiMvYrICwHaEK?w=376&h=180&c=7&r=0&o=7&pid=1.7&rm=3');
+            background-size:100% 100%;
+            color:white;
+            padding-top:120px;
+            text-align:center;
+        }
+        .s2{
+            background-color:whitesmoke;
+            height:300px;
+            text-align:center;
+            padding-top:50px;
+        }
+        .s2>ul>li{
+            color:white;
+            padding:20px;
+            margin:20px;
+            width:120px;
+            height:70px;
+            display:inline-block;
+            border-radius:10px;
+            font-weight:bold;
+        }
+        .s3{
+            height:300px;
+            padding-top:30px;
+            text-align:center;
+        }
+        .child{
+            background-color:skyblue;
+            border:2px solid blue;
+            display:inline-block;
+            height:120px;
+            width:200px;
+            padding:10px;
+            margin:20px;
+            border-radius:10px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+    </header>
+    <section  class="s1">
+        <h1>Learn CSS through projects</h1>
+        <p>The project demonstrates Css colors,Backgrounds,Inline & Inline Block,Box Model,and Fonts in one modern UI</p>
+    </section>
+    <section class="s2">
+        <h1>CSS colors</h1>
+        <ul>
+            <li style="background-color:red">Red</li>
+            <li style="background-color:blue">Hex</li>
+            <li style="background-color:green">Rgb</li>
+            <li style="background-color:violet">hsl</li>
+        </ul>
+    </section>
+    <section class="s3">
+        <h1>CSS Box Model</h1>
+        <div class="card">
+            <div class="child">
+                <h3>Card One</h3>
+                <p>This card demonstrates padding,border,margin,width, and background color</p>
+            </div>
+            <div class="child">
+                <h3>Card Two</h3>
+                <p>This card demonstrates padding,border,margin,width, and background color</p>
+            </div>
+        </div>
+    </section>
+    <section class="s2">
+        <h1>CSS fonts</h1>
+        <p style="font-weight:300px;padding:10px">light font</p>
+        <p style="font-weight:400px;padding:10px">Normal font</p>
+        <p style="font-weight:bold;padding:10px">Bold font</p>
+        <p>This paragraph demonstrates line-height,letter-spacing,font-size, and font-family properties in CSS</p>
+    </section>
+    <footer>
+        CSS Learning Project Template
+    </footer>
+</body>
+</html>
